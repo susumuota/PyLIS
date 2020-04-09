@@ -30,7 +30,7 @@ pip install pybullet
 
 # You may need to install prerequisites.
 # See https://www.tensorflow.org/install/pip for more details.
-pip install tensorflow==1.14 # or tensorflow-gpu
+pip install tensorflow==1.15 # or tensorflow-gpu
 
 # You may need to install prerequisites.
 # See https://github.com/hill-a/stable-baselines#installation for more details.
