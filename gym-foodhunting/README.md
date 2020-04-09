@@ -5,7 +5,7 @@ Gym environments and agents for food hunting in the 3D world.
 
 # Install
 
-I've tested on Mac OS X 10.13.6 (Python 3.7.5) and Ubuntu 16.04.
+I've tested on Mac OS X 10.13.6 (Python 3.7.7).
 
 Some packages need to install prerequisites. See these pages for more details.
 
