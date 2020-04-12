@@ -100,3 +100,45 @@ register(
     max_episode_steps=10000,
     kwargs={'render': True, 'robot_model': HSR, 'max_steps': 10000, 'num_foods': 1, 'num_fakes': 1, 'object_size': 0.5, 'object_radius_scale': 0.0, 'object_radius_offset': 1.5, 'object_angle_scale': 0.25}
 )
+
+register(
+    id='FoodHuntingMA-v0',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': False, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 1, 'num_agents': 1}
+)
+
+register(
+    id='FoodHuntingMAGUI-v0',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': True, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 1, 'num_agents': 1}
+)
+
+register(
+    id='FoodHuntingMA-v1',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': False, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 1, 'num_agents': 2}
+)
+
+register(
+    id='FoodHuntingMAGUI-v1',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': True, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 1, 'num_agents': 2}
+)
+
+register(
+    id='FoodHuntingMA-v2',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': False, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 2, 'num_agents': 2}
+)
+
+register(
+    id='FoodHuntingMAGUI-v2',
+    entry_point='gym_foodhunting.foodhunting:FoodHuntingMAEnv',
+    max_episode_steps=50,
+    kwargs={'render': True, 'robot_model': R2D2Discrete, 'max_steps': 50, 'num_foods': 2, 'num_agents': 2}
+)
