@@ -14,6 +14,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage:
+#   1. go to IAM and add role to access spot price.
+#
+#     https://console.aws.amazon.com/iam/home
+#
+#   2. write keys on ~/.aws/credentials.
+#
+#     [default]
+#     aws_access_key_id=XXX
+#     aws_secret_access_key=XXX
+#
+#   3. install boto3 library.
+#
+#     pip install boto3
+#
+#   4. run this script.
+#
+#     python ec2_spot_price.py --instance_types="c5.xlarge,p2.xlarge"
 
 # see https://wp.bmemo.pw/1304
 
